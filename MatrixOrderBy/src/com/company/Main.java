@@ -67,7 +67,7 @@ public class Main {
         private int[] calculateColumnOrder() {
             //We don't want replace all elements in our array at once
             //Probably better sort only needed column, and remember "id" of elements we replaced
-            
+
             int[] colOrderedNumbers = new int[matrixSize];
 
             for (int i = 0; i < matrixSize; i++) {
